@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling - Capítulo 1</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        img {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        a {
+            display: inline-block;
+            margin: 20px;
+            color: #6200ea;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: #bb86fc;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="solo-leveling.html">← Voltar aos capítulos</a>
+
+    <img src="https://i.postimg.cc/8zjh1tGD/page1.jpg" alt="Página 1">
+    <img src="https://i.postimg.cc/W3TjsqNz/page2.jpg" alt="Página 2">
+    <img src="https://i.postimg.cc/9MqyjgTY/page3.jpg" alt="Página 3">
+
+    <a href="solo-cap2.html">Próximo Capítulo →</a>
+
+</body>
+</html>

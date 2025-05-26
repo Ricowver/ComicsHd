@@ -1,0 +1,9 @@
+manhwa-site/
+│
+├── index.html
+├── solo-leveling.html
+├── solo-cap1.html
+├── solo-cap2.html
+├── lookism.html
+├── tower-of-god.html
+└── /imagens (se quiser salvar local, opcional)

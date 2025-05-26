@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManhwaVerse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: white;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        .container {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .card .info {
+            padding: 15px;
+        }
+
+        .card .info h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .card .info p {
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            color: #aaa;
+        }
+
+        .card .info a {
+            text-decoration: none;
+            background-color: #6200ea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .card .info a:hover {
+            background-color: #3700b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ManhwaVerse</h1>
+        <p>Leia seus manhwas favoritos online</p>
+    </header>
+
+    <div class="container">
+        <!-- Card de exemplo -->
+        <div class="card">
+            <img src="https://i.postimg.cc/8CqhD5G5/solo-leveling.jpg" alt="Solo Leveling">
+            <div class="info">
+                <h2>Solo Leveling</h2>
+                <p>179 capítulos</p>
+                <a href="solo-leveling.html">Ver capítulos</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.postimg.cc/zGHZsPdr/lookism.jpg" alt="Lookism">
+            <div class="info">
+                <h2>Lookism</h2>
+                <p>489 capítulos</p>
+                <a href="lookism.html">Ver capítulos</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i.postimg.cc/3RMkpNw1/tower-of-god.jpg" alt="Tower of God">
+            <div class="info">
+                <h2>Tower of God</h2>
+                <p>600 capítulos</p>
+                <a href="tower-of-god.html">Ver capítulos</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 ManhwaVerse - Apenas para fins educacionais e demonstração.
+    </footer>
+
+</body>
+</html>
